@@ -1,0 +1,4 @@
+# Servo-PID-Design
+
+Our project, completed as part of an EE 4210 Control Systems lab at Kennesaw State University, focused on the design and implementation of a servo PID controller for a robotic pick-and-place application. We began by designing and simulating a PD servo closed loop system, before building and manually tuning P, PD, and PID controllers. Using Simulink, we modeled a PID control system and incorporated a low pass filter to minimize system noise. We used a performance scoring formula to achieve our goal of the highest possible performance, with overshoot less than 5%, steady state error less than 2% after one second, and the fastest possible settle time of Ts < 0.5 seconds. We successfully achieved a total score of 63.9, meeting our performance targets. Our project taught us valuable hands-on experience in designing and implementing control systems, while providing insights into the theory and challenges of working with PID controllers.
+
